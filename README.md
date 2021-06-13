@@ -1,4 +1,4 @@
-# Exam
+# Examdays
 
 *A Python module that helps you to calculate how many days will you have for preparing your exam.*
 
@@ -8,7 +8,7 @@ Module used:
 ### Usage:
 
 ```python
-from exam import exam
+from examdays import exam
 
 exam(end_year, end_month, end_day)
 

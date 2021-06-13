@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
 Name: examdays
-Version: 0.0.3
+Version: 0.0.5
 Summary: A module that helps you to calculate how many days will you have for preparing your exam.
-Home-page: UNKNOWN
+Home-page: https://github.com/meowmeowmeowcat/exam
 Author: meowmeowcat
 Author-email: 
 License: UNKNOWN
-Description: # Exam
+Description: # Examdays
         
-        *A module that helps you to calculate how many days will you have for preparing your exam.*
+        *A Python module that helps you to calculate how many days will you have for preparing your exam.*
         
         Module used:
         [Pendulum](https://pypi.org/project/pendulum/)
@@ -16,7 +16,7 @@ Description: # Exam
         ### Usage:
         
         ```python
-        from exam import exam
+        from examdays import exam
         
         exam(end_year, end_month, end_day)
         
