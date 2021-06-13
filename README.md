@@ -52,6 +52,8 @@ You still have: 6 days!
 Good Luck! 
 ```
 
+### With Colour:
+
 ```shell
 $ examdays 2021 6 30 YELLOW
 ```
