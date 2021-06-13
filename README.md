@@ -5,6 +5,12 @@
 Module used:
 [Pendulum](https://pypi.org/project/pendulum/)
 
+## Installation
+
+```shell
+pip install examdays
+```
+
 ## Usage
 
 ```python
