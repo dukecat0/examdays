@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="examdays",
-    version="0.0.8",
+    version="0.0.9",
     author="meowmeowcat",
     author_email="",
     description="A module that helps you to calculate how many days will you have for preparing your exam.",
