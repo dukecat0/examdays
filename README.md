@@ -30,8 +30,8 @@ $ examdays [end year] [end month] [end day] [colour]
 
 ### Colour List:
 
-+ BLACK
-+ RED 
++ <span style="color:white">BLACK</span>
++ <span style="color:red">"RED</span> 
 + GREEN 
 + YELLOW 
 + BLUE 
