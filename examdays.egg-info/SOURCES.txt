@@ -1,0 +1,8 @@
+README.md
+setup.py
+exam/__init__.py
+examdays.egg-info/PKG-INFO
+examdays.egg-info/SOURCES.txt
+examdays.egg-info/dependency_links.txt
+examdays.egg-info/requires.txt
+examdays.egg-info/top_level.txt

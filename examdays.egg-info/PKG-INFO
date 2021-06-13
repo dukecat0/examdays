@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: examdays
+Version: 0.0.3
+Summary: A module that helps you to calculate how many days will you have for preparing your exam.
+Home-page: UNKNOWN
+Author: meowmeowcat
+Author-email: 
+License: UNKNOWN
+Description: # Exam
+        
+        *A module that helps you to calculate how many days will you have for preparing your exam.*
+        
+        Module used:
+        [Pendulum](https://pypi.org/project/pendulum/)
+        
+        ### Usage:
+        
+        ```python
+        from exam import exam
+        
+        exam(end_year, end_month, end_day)
+        
+        # For example
+        # exam(2021, 6, 28)
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
