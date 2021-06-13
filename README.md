@@ -57,7 +57,7 @@ $ examdays 2021 6 30 YELLOW
 ```
 Output:
 
-[Yellow](./img/yellow.png)
+[Yellow](./yellow.png)
 
 ```shell
 $ examdays 2021 6 30 blue
@@ -65,5 +65,5 @@ $ examdays 2021 6 30 blue
 
 Output:
 
-[Blue](./img/blue.png)
+[Blue](./blue.png)
 
