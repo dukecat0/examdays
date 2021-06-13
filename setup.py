@@ -23,7 +23,7 @@ setup(
     packages=["examdays"],
     entry_points="""
         [console_scripts]
-        examdays=exam.__main__:cli
+        examdays=examdays.__main__:cli
         """,
     python_requires=">=3.6",
     install_requires=[
