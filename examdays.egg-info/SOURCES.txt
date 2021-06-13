@@ -1,6 +1,6 @@
 README.md
 setup.py
-examdays/__main__.py
+examdays/__init__.py
 examdays.egg-info/PKG-INFO
 examdays.egg-info/SOURCES.txt
 examdays.egg-info/dependency_links.txt

@@ -1,4 +1,4 @@
 
         [console_scripts]
-        examdays=examdays.__main__:cli
+        examdays=examdays.__init__:cli
         

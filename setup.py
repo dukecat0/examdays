@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="examdays",
-    version="0.0.6",
+    version="0.0.8",
     author="meowmeowcat",
     author_email="",
     description="A module that helps you to calculate how many days will you have for preparing your exam.",
@@ -23,7 +23,7 @@ setup(
     packages=["examdays"],
     entry_points="""
         [console_scripts]
-        examdays=examdays.__main__:cli
+        examdays=examdays.__init__:cli
         """,
     python_requires=">=3.6",
     install_requires=[
