@@ -1,6 +1,9 @@
+'''
+Author: @meowmeowmeowcat
+'''
+
 import pendulum
 import sys
-
 
 class style:
     BLACK = "\033[30m"
