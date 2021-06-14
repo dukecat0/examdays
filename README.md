@@ -18,9 +18,15 @@ from examdays import exam
 
 exam(end_year, end_month, end_day)
 
-# For example
-# exam(2021, 6, 28)
+'''
+For example:
 
+If your exam is on 2021,6,30
+
+Then:
+exam(2021,6,30)
+
+'''
 
 ```
 
@@ -29,7 +35,7 @@ or:
 ```python
 import examdays
 
-examdays.exam(2021,6,30)
+examdays.exam(end_year, end_month, end_day)
 
 ```
 
