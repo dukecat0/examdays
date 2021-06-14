@@ -21,7 +21,18 @@ exam(end_year, end_month, end_day)
 # For example
 # exam(2021, 6, 28)
 
+
 ```
+
+or:
+
+```python
+import examdays
+
+examdays.exam(2021,6,30)
+
+```
+
 or in Command Line:
 
 ```shell
