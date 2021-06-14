@@ -20,7 +20,6 @@ exam(end_year, end_month, end_day)
 
 '''
 For example:
-
 If your exam is on 2021,6,30
 
 Then:
