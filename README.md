@@ -7,7 +7,7 @@ Module used:
 
 ## Installation
 
-```shell
+```
 pip install examdays
 ```
 
@@ -40,13 +40,13 @@ examdays.exam(end_year, end_month, end_day)
 
 or in Command Line:
 
-```shell
+```
 $ examdays [end year] [end month] [end day] 
 ```
 
 If you want to use specific colour in the output:
 
-```shell
+```
 $ examdays [end year] [end month] [end day] [colour]
 ```
 
@@ -64,26 +64,26 @@ $ examdays [end year] [end month] [end day] [colour]
 
 ## Example
 
-```shell
+```
 $ examdays 2021 6 20
 ```
 
 Output:
-```shell
+```
 You still have: 6 days!
 Good Luck! 
 ```
 
 ### With Colour:
 
-```shell
+```
 $ examdays 2021 6 30 YELLOW
 ```
 Output:
 
 ![Yellow](./yellow.png)
 
-```shell
+```
 $ examdays 2021 6 30 blue
 ```
 
