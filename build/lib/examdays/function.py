@@ -2,7 +2,7 @@
 Author: @meowmeowmeowcat
 '''
 
-import pendulum
+from datetime import date
 import sys
 
 class style:
@@ -17,12 +17,11 @@ class style:
 
 
 def exam(end_year, end_month, end_day):
-    start = pendulum.now()
-    end = pendulum.datetime(end_year, end_month, end_day)
+    start = date.today()
+    end = date(end_year, end_month, end_day)
     period = end - start
     print(style.YELLOW + "You still have: " + str(period.days) + " days! ")
-    return "Good Luck! "
-
+    print("Good Luck! ")
 
 def cli():
     end_year = sys.argv[1]
@@ -31,8 +30,8 @@ def cli():
     new_end_year = int(end_year)
     new_end_month = int(end_month)
     new_end_day = int(end_day)
-    start = pendulum.now()
-    end = pendulum.datetime(new_end_year, new_end_month, new_end_day)
+    start = date.today()
+    end = date(new_end_year, new_end_month, new_end_day)
     period = end - start
     try:
         change_colour = sys.argv[4]

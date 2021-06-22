@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="examdays",
-    version="0.0.12",
+    version="0.0.13",
     author="meowmeowcat",
     author_email="",
     description="A module that helps you to calculate how many days will you have for preparing your exam.",
@@ -27,7 +27,7 @@ setup(
         """,
     python_requires=">=3.6",
     install_requires=[
-        "pendulum"
+        "datetime"
     ],
     
 )

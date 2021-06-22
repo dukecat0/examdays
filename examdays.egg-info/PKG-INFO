@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: examdays
-Version: 0.0.12
+Version: 0.0.13
 Summary: A module that helps you to calculate how many days will you have for preparing your exam.
 Home-page: https://github.com/meowmeowmeowcat/exam
 Author: meowmeowcat
@@ -10,12 +10,10 @@ Description: # Examdays
         
         *A Python module that helps you to calculate how many days will you have for preparing your exam.*
         
-        Module used:
-        [Pendulum](https://pypi.org/project/pendulum/)
         
         ## Installation
         
-        ```shell
+        ```
         pip install examdays
         ```
         
@@ -26,19 +24,35 @@ Description: # Examdays
         
         exam(end_year, end_month, end_day)
         
-        # For example
-        # exam(2021, 6, 28)
+        '''
+        For example:
+        If your exam is on 2021,6,30
+        
+        Then:
+        exam(2021,6,30)
+        
+        '''
         
         ```
+        
+        or:
+        
+        ```python
+        import examdays
+        
+        examdays.exam(end_year, end_month, end_day)
+        
+        ```
+        
         or in Command Line:
         
-        ```shell
+        ```
         $ examdays [end year] [end month] [end day] 
         ```
         
         If you want to use specific colour in the output:
         
-        ```shell
+        ```
         $ examdays [end year] [end month] [end day] [colour]
         ```
         
@@ -56,26 +70,26 @@ Description: # Examdays
         
         ## Example
         
-        ```shell
+        ```
         $ examdays 2021 6 20
         ```
         
         Output:
-        ```shell
+        ```
         You still have: 6 days!
         Good Luck! 
         ```
         
         ### With Colour:
         
-        ```shell
+        ```
         $ examdays 2021 6 30 YELLOW
         ```
         Output:
         
         ![Yellow](./yellow.png)
         
-        ```shell
+        ```
         $ examdays 2021 6 30 blue
         ```
         
