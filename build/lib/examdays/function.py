@@ -1,9 +1,11 @@
-'''
+"""
 Author: @meowmeowmeowcat
-'''
+"""
 
 from datetime import date
 import sys
+import random
+
 
 class style:
     BLACK = "\033[30m"
@@ -14,6 +16,7 @@ class style:
     MAGENTA = "\033[35m"
     CYAN = "\033[36m"
     WHITE = "\033[37m"
+    list_of_colour = ["RED", "GREEN", "YELLOW", "BLUE", "MAGENTA", "CYAN"]
 
 
 def exam(end_year, end_month, end_day):
@@ -22,6 +25,7 @@ def exam(end_year, end_month, end_day):
     period = end - start
     print(style.YELLOW + "You still have: " + str(period.days) + " days! ")
     print("Good Luck! ")
+
 
 def cli():
     end_year = sys.argv[1]
@@ -33,12 +37,31 @@ def cli():
     start = date.today()
     end = date(new_end_year, new_end_month, new_end_day)
     period = end - start
+
     try:
         change_colour = sys.argv[4]
     except IndexError:
-        print("You still have: " + str(period.days) + " days!")
-        print("Good Luck! ")
+        choice = random.choice(style.list_of_colour)
+        if choice == "RED":
+            print(style.RED + "You still have: " + str(period.days) + " days!")
+            print(style.RED + "Good Luck! ")
+        elif choice == "GREEN":
+            print(style.GREEN + "You still have: " + str(period.days) + " days!")
+            print(style.GREEN + "Good Luck! ")
+        elif choice == "YELLOW":
+            print(style.YELLOW + "You still have: " + str(period.days) + " days!")
+            print(style.YELLOW + "Good Luck! ")
+        elif choice == "BLUE":
+            print(style.BLUE + "You still have: " + str(period.days) + " days!")
+            print(style.BLUE + "Good Luck! ")
+        elif choice == "MAGENTA":
+            print(style.MAGENTA + "You still have: " + str(period.days) + " days!")
+            print(style.MAGENTA + "Good Luck! ")
+        elif choice == "CYAN":
+            print(style.CYAN + "You still have: " + str(period.days) + " days!")
+            print(style.CYAN + "Good Luck! ")
         return False
+
     if change_colour == "BLACK" or change_colour == "black":
         print(style.BLACK + "You still have: " + str(period.days) + " days!")
         print(style.BLACK + "Good Luck! ")
