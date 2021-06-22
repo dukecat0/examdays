@@ -2,8 +2,6 @@
 
 *A Python module that helps you to calculate how many days will you have for preparing your exam.*
 
-Module used:
-[Pendulum](https://pypi.org/project/pendulum/)
 
 ## Installation
 
