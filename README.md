@@ -89,3 +89,6 @@ Output:
 
 ![Blue](./blue.png)
 
+## TODO
+
+ * [ ] Add Timer function
