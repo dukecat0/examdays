@@ -92,3 +92,7 @@ Output:
 ## TODO
 
  * [ ] Add Timer function
+
+## License
+
+MIT
