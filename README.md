@@ -92,6 +92,8 @@ Output:
 ## TODO
 
  * [ ] Add Timer function
+ * [ ] Add Focus Mode (Block Website)
+
 
 ## License
 

@@ -3,3 +3,5 @@ build/
 dist/
 examdays.egg-info/
 .DS_Store
+Makefile
+.gitignore
