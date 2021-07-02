@@ -91,11 +91,6 @@ Output:
 
 ![Blue](./blue.png)
 
-## TODO
-
- * [ ] Add Timer function
- * [ ] Add Focus Mode (Block Website)
-
 
 ## License
 
