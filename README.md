@@ -94,4 +94,4 @@ Output:
 
 ## License
 
-MIT
+[MIT](https://github.com/meowmeowmeowcat/examdays/blob/4e73c8f419a4bc631088f84532db1d238f9e7284/LICENSE)
