@@ -3,7 +3,7 @@ Basic Usage
 
 ----------------------------------------------------------------
 
-Now it has a function (count days) only:
+It has a function (count days) only:
 
 .. code-block:: python
     
