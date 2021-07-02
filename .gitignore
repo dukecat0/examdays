@@ -4,3 +4,4 @@ dist/
 examdays.egg-info/
 .DS_Store
 Makefile
+examdays/__pycache__
