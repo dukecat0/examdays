@@ -43,5 +43,3 @@ Colour List:
 * CYAN
 * WHITE
 
-(There will be more function in the future !)
-
